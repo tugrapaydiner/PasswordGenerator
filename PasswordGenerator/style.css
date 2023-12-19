@@ -1,0 +1,38 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Styling for the container div */
+.container {
+    background: white; /* White background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for input elements */
+input[type="number"], input[type="checkbox"] {
+    margin-right: 10px; /* Space to the right of each input */
+}
+
+/* Styling for the button */
+button {
+    margin-top: 10px; /* Space above the button */
+    padding: 5px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+    /* Hover effect for the button */
+    button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
